@@ -1,0 +1,84 @@
+#arrowUp {
+	width: 20px;
+	height: 20px;
+}
+
+#FlappyBird {
+	width: 40%;
+	top: 15% !important;
+	z-index: 5;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	z-index: 2;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background: rgb(228, 226, 151);
+	background: radial-gradient(circle, rgba(228, 226, 151, 1) 0%, rgba(255, 220, 41, 1) 100%);
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgb(239, 169, 4);
+	width: 70%;
+	height: 75%;
+}
+
+p {
+	word-spacing: 2px;
+}
+
+#intro {
+	font-size: 20px;
+	border: 3px dashed orange;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+#istruzioni {
+	font-size: 17px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#istruzioni::after {
+	display: block;
+	content: "";
+	height: 1vh;
+	border-radius: 10px 10px 0 0;
+	background-color: orange;
+	margin-top: 30px;
+}
+
+#fine::after {
+	display: block;
+	content: "";
+	height: 1vh;
+	border-radius: 0 0 10px 10px;
+	background-color: orange;
+	margin-top: 15px;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: rgb(255, 123, 0);
+	font-weight: bold;
+	font-size: 28px;
+}
+
+#regole {
+	padding: 10px;
+	font-size: 18px;
+}
+
+
+#fine {
+	font-weight: bold;
+	margin-top: 8px;
+	font-size: 20px;
+}

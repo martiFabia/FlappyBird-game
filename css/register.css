@@ -1,0 +1,113 @@
+#divReg {
+	top: 50%;
+	left: 50%;
+}
+
+
+h2 {
+	font-size: 37px;
+	margin-bottom: 30px;
+	color: #fd6a00;
+    
+}
+
+
+input[type="submit"]:disabled {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
+
+.input_error {
+	border: 2px solid red !important;
+  }
+
+
+span {
+	font-size: 12px;
+	margin-top: 2px;
+}
+
+#span_username_available {
+	color: green;
+}
+
+
+.eyeIcons {
+	cursor: pointer;
+	width: 22px;
+	position: absolute;
+	right: 50px;
+	margin-top: 16px;
+}
+
+.success {
+  display: block;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+}
+
+.registered_modal {
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  position: relative;
+  width: 40vw;
+  height: auto;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.registered_modal::before {
+  display: block;
+  content: "";
+  height: 1vh;
+  border-radius: 10px 10px 0 0;
+  background-color: orange;
+}
+
+.registered_message {
+  margin: 2vh;
+  font-size: 20px;
+  color: red;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.registered_btngroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#toLogin {
+  padding: 2vh 2vh;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  min-width: 10vw;
+  border: none;
+  margin: 2vh 0;
+  background-color: orange;
+  color:  red;
+  cursor: pointer;
+}
+
+#toLogin:hover {
+	background-color: skyblue;
+}
+
+
+.form_message {
+	display: block;
+	margin: 1vh auto 0 auto;
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+

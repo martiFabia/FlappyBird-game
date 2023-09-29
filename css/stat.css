@@ -1,0 +1,123 @@
+#FlappyBird{
+	position: absolute;
+	width: 25% !important; 
+	top: 8% !important;
+	left: 85% !important;
+}
+
+#container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	background: rgb(228, 226, 151);
+	background: radial-gradient(circle, rgba(228, 226, 151, 1) 0%, rgba(255, 220, 41, 1) 100%);
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgb(239, 169, 4);
+	width: 60%;
+	height: 65%;
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 13%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-size: 45px;
+	font-family: monospace;
+	text-transform: capitalize;
+}
+
+h3 {
+	font-size: 33px;
+	color: #fd6a00;
+}
+
+#container_card {
+	display: flex;
+	flex-direction: row;
+}
+
+.card {
+	margin: 40px 20px auto 20px;
+	position: relative;
+	padding: 20px;
+	width: 30%;
+	min-height: 200px;
+	border-radius: 10px;
+	background: radial-gradient(#f9c469, #fa8908);
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
+	transition: all 0.2s;
+	display: flex;
+	flex-direction: column;
+}
+
+.card:hover {
+	box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+	transform: scale(1);
+}
+
+.card-2>.text {
+	font-size: 38px;
+}
+
+.card-2:hover {
+	transform: scale(1.2);
+}
+
+
+.card-1, .card-3{
+	transform: scale(0.85);
+} 
+
+.text {
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: context-menu;
+}
+
+#games, #bestscore, #media {
+	color: orangered;
+	font-size: 65px;
+	font-weight: bold;
+	cursor: context-menu;
+}
+
+#games, #media {
+	font-size: 55px;
+}
+
+
+
+@media (max-width: 1600px) {
+	.card {
+		justify-content: center;
+	}
+}
+
+
+
+span {
+	position: absolute;
+	font-size: 48px;
+	top: 85%;
+	text-align: center;
+	transform: translateX(-50%);
+	left: 50%;
+}
+

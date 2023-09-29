@@ -1,0 +1,76 @@
+#play_button {
+	display: inline-block;
+	padding: 10px 50px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	font-family: monospace;
+	text-decoration: none;
+	color: #fff;
+	background-color: #ffa913;
+	border: 2px solid #000;
+	border-radius: 100px;
+	box-shadow: 5px 5px 10px #ee1313;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+#play_button:hover {
+	background-color: #fff;
+	color: #e80f0f;
+	border: 2px solid #fff539;
+	box-shadow: 5px 5px 0px #ff9e30;
+	transform: scale(1.1);
+}
+
+#play_button:active {
+	background-color: #fcf414;
+	box-shadow: none;
+	transform: translateY(4px);
+}
+
+
+
+#logout_button {
+	padding: 0;
+	margin: 0;
+	border: none;
+	background: none;
+}
+
+#logout_button {
+	--primary-color: #111;
+	position: absolute;
+	top: 3%;
+	right: 3%;
+	display: flex;
+	font-weight: 600;
+	gap: 0.5rem;
+	align-items: center;
+	cursor: pointer;
+}
+
+#logout_button p {
+	position: relative;
+	font-size: 26px;
+	color: var(--primary-color)
+}
+
+#logout_button:hover p {
+	text-decoration: underline;
+	transition: text-decoration 0.3s;
+}
+
+
+
+#logout_button:hover img {
+	transform: translateX(4px);
+}
+
+#logout_button img {
+	color: var(--primary-color);
+	transition: 0.2s;
+	position: relative;
+	width: 20px;
+	transition-delay: 0.2s;
+}

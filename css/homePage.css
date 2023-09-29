@@ -1,0 +1,159 @@
+.homePage {
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+    background: rgb(228, 226, 151);
+    background: radial-gradient(circle, rgba(228, 226, 151, 1) 0%, rgba(255, 220, 41, 1) 100%);
+    border: 1.5px solid black;
+    border-radius: 100px;
+    box-shadow: 5px 5px 5px rgb(255, 93, 23);
+    margin: 30px;
+    color: #fd6a00;
+}
+
+li a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+
+
+li:hover {
+    color: #ec1c1c;
+}
+
+.scala:hover {
+    transform: scale(1.1);
+}
+
+
+#sx {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 93%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    left: 40%;
+}
+
+#dx {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 93%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    left: 60%;
+}
+
+#centro {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 93%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+}
+
+.card {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: #ff6b01;
+    box-shadow: 3px 3px 10px rgb(255, 220, 41);
+    cursor: pointer;
+    position: relative;
+}
+
+
+#classifica {
+    width: 85%;
+    height: 73%;
+    margin-top: 5px;
+}
+
+
+#toggleAudio_btn {
+    margin-top: 4px;
+    background: none;
+    border: none;
+    z-index: 2;
+}
+
+#toggleAudio_btn img {
+    width: 85%;
+    height: 85%;
+}
+
+#toggleAudio_btn:hover {
+    cursor: pointer;
+}
+
+
+#statistiche {
+    margin-top: 7px;
+    width: 65%;
+    height: 70%;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+
+
+.card .tooltip {
+    visibility: hidden;
+    background-color:  #ff6b01;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 7px;
+    text-transform: uppercase;
+    font-size: 12px;
+    top: -35%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    position: absolute;
+    z-index: 1;
+}
+
+.card .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background:  #ff6b01;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+  }
+
+
+.card:hover .tooltip {
+  visibility: visible;
+}

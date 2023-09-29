@@ -1,0 +1,77 @@
+.divForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+    z-index: 2;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+#divLogin {
+	top: 65%;
+	left: 50%;
+}
+
+form {
+	background: rgb(228,226,151);
+    background: radial-gradient(circle, rgba(228,226,151,1) 0%, rgba(255,220,41,1) 100%);
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgb(239, 169, 4);
+}
+
+h1 {
+	font-size: 40px;
+	margin-bottom: 30px;
+	color: #fd6a00;
+}
+
+.input-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+input[type="text"], input[type="password"] {
+	border: solid 1.5px white;
+	border-radius: 1rem;
+	padding: 13px;
+	font-size: 1rem;
+	transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+input:focus {
+	outline: none;
+	border: 1.5px solid orange;
+}
+
+
+input[type="submit"] {
+	background-color: orange;
+	color:  red;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: yellow;
+}
+
+  
+p {
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+#registrati, #accedi {
+	color:  #fd6a00;
+}
+
