@@ -1,1 +1,1 @@
-# vanilla-FlappyBird
+# FlappyBird game 
